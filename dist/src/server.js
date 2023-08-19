@@ -54,7 +54,8 @@ const app = (0, express_1.default)();
 const httpServer = (0, http_1.createServer)(app);
 const io = new socket_io_1.Server(httpServer, {
     cors: {
-        origin: "*",
+        origin: "https://mini-trello-clone-front.vercel.app",
+        credentials: true,
     },
 });
 app.use((0, cors_1.default)());
