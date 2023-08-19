@@ -23,6 +23,8 @@
     "@types/node": "^20.5.0",
     "@types/validator": "^13.7.17",
     "nodemon": "^3.0.1",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^5.0.1",
     "ts-node": "^10.9.1"
   },
   "dependencies": {

@@ -1,0 +1,33 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SocketEventsEnum = void 0;
+var SocketEventsEnum;
+(function (SocketEventsEnum) {
+    SocketEventsEnum["boardsJoin"] = "boards:join";
+    SocketEventsEnum["boardsLeave"] = "boards:leave";
+    SocketEventsEnum["boardsUpdate"] = "boards:update";
+    SocketEventsEnum["boardsUpdateSuccess"] = "boards:updateSuccess";
+    SocketEventsEnum["boardsUpdateFailure"] = "boards:updateFailure";
+    SocketEventsEnum["boardsDelete"] = "boards:delete";
+    SocketEventsEnum["boardsDeleteSuccess"] = "boards:deleteSuccess";
+    SocketEventsEnum["boardsDeleteFailure"] = "boards:deleteFailure";
+    SocketEventsEnum["columnsCreate"] = "columns:create";
+    SocketEventsEnum["columnsCreateSuccess"] = "columns:createSuccess";
+    SocketEventsEnum["columnsCreateFailure"] = "columns:createFailure";
+    SocketEventsEnum["columnsDelete"] = "columns:delete";
+    SocketEventsEnum["columnsDeleteSuccess"] = "columns:deleteSuccess";
+    SocketEventsEnum["columnsDeleteFailure"] = "columns:deleteFailure";
+    SocketEventsEnum["columnsUpdate"] = "columns:update";
+    SocketEventsEnum["columnsUpdateSuccess"] = "columns:updateSuccess";
+    SocketEventsEnum["columnsUpdateFailure"] = "columns:updateFailure";
+    SocketEventsEnum["tasksCreate"] = "tasks:create";
+    SocketEventsEnum["tasksCreateSuccess"] = "tasks:createSuccess";
+    SocketEventsEnum["tasksCreateFailure"] = "tasks:createFailure";
+    SocketEventsEnum["tasksUpdate"] = "tasks:update";
+    SocketEventsEnum["tasksUpdateSuccess"] = "tasks:updateSuccess";
+    SocketEventsEnum["tasksUpdateFailure"] = "tasks:updateFailure";
+    SocketEventsEnum["tasksDelete"] = "tasks:delete";
+    SocketEventsEnum["tasksDeleteSuccess"] = "tasks:deleteSuccess";
+    SocketEventsEnum["tasksDeleteFailure"] = "tasks:deleteFailure";
+})(SocketEventsEnum || (exports.SocketEventsEnum = SocketEventsEnum = {}));
+//# sourceMappingURL=socketEvents.enum.js.map
