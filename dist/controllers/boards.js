@@ -21,7 +21,7 @@ const getBoards = (req, res, next) => __awaiter(void 0, void 0, void 0, function
         if (!req.user) {
             return res.sendStatus(401);
         }
-        const boards = yield board_1.default.find({ userId: req.user.id });
+        const boards = yield board_1.default.find();
         res.send(boards);
     }
     catch (error) {

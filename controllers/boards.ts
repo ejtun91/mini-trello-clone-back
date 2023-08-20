@@ -15,7 +15,7 @@ export const getBoards = async (
     if (!req.user) {
       return res.sendStatus(401);
     }
-    const boards = await BoardModel.find({ userId: req.user.id });
+    const boards = await BoardModel.find();
     res.send(boards);
   } catch (error) {
     next(error);
